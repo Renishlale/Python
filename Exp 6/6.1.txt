@@ -1,0 +1,9 @@
+dic={"Name":"Renish","Roll no.":16,"Div":"CSE A"}
+print("Student:",dic)
+print(dic["Name"])
+dic["Roll no."]=34
+print("Updated Dictionary:",dic)
+del dic["Roll no."]
+print("Student:",dic)
+del dic
+
